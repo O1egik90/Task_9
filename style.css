@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    position: absolute;
+    top: 30%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    color: rgb(1, 5, 26);
+}
+
+.card-body {
+    background-color: rgb(170, 189, 241);
+}
+
+.card-header, .card-footer {
+    background-color: rgb(12, 135, 197);
+}
+
+#generation.btn.btn-success {
+    margin-right: 20px;
+}
+
+#clear.btn.btn-danger {
+    margin-left: 20px;
+}
